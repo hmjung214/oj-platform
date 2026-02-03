@@ -1,0 +1,26 @@
+# FastAPI 서버
+fastapi
+uvicorn[standard]
+
+# 비동기 PostgreSQL 드라이버
+asyncpg
+sqlalchemy[asyncio]
+alembic
+psycopg2-binary  # Alembic용 DB 드라이버
+
+# Celery 관련
+celery
+redis
+
+# 설정 관리
+pydantic
+pydantic-settings
+
+# 인증 관련
+python-jose[cryptography]
+passlib[bcrypt]
+
+# 기타 유틸리티
+python-multipart
+requests
+psutil
