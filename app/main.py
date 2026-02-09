@@ -12,6 +12,12 @@ allowed_origins = list(set([
     "https://miso.center",
     "https://dev.miso.center",
     "https://devadmin.miso.center",
+    "https://admin.miso.center",
+    "https://tutor.miso.center",
+    "https://devtutor.miso.center",
+    "https://www.admin.miso.center",
+    "https://www.tutor.miso.center",
+    "https://www.devtutor.miso.center",
     "https://www.miso.center",
     "https://www.dev.miso.center",
     "https://www.devadmin.miso.center"

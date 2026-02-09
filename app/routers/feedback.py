@@ -53,7 +53,7 @@ async def generate_feedback(data: FeedbackRequest):
                 model="gpt-4o",
                 messages=messages,
                 temperature=0.4,
-                max_tokens=1024,
+                max_tokens=300,
                 stream=True
             )
             for chunk in response:
